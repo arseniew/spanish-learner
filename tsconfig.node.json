@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+     /* Specify output directory for type checking node scripts if needed */
+    // "outDir": "dist-node",
+    /* Ensure Node types are available */
+     "types": ["node"]
+  },
+  "include": ["vite.config.ts", "scripts/**/*.mjs", "scripts/**/*.js"]
+}
