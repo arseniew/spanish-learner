@@ -1,0 +1,5 @@
+(Tú) ¡______ (hacer) tu cama ahora mismo!;haz
+(Usted) ______ (hacer) el favor de esperar un momento.;haga
+(Nosotros) ______ (hacer) un brindis por los novios.;hagamos
+(Vosotros) ¡______ (hacer) los deberes antes de salir a jugar!;haced
+(Ustedes) ______ (hacer) silencio en la biblioteca.;hagan

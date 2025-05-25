@@ -1,0 +1,5 @@
+(Tú) ¡______ (dar) las gracias cuando recibas algo!;da
+(Usted) ______ (dar) un discurso inspirador en la conferencia.;dé
+(Nosotros) ______ (dar) la bienvenida a los nuevos miembros.;demos
+(Vosotros) ¡______ (dar) lo mejor de vosotros en el partido!;dad
+(Ustedes) ______ (dar) sus opiniones durante la reunión.;den

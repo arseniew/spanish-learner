@@ -58,6 +58,780 @@ export const languageData: LanguageData = {
       }
     ]
   },
+  "dar": {
+    "condicional": [
+      {
+        "template": "Si tuviera más dinero, yo ______ (dar) una gran fiesta.",
+        "answer": "daría"
+      },
+      {
+        "template": "¿Tú le ______ (dar) una segunda oportunidad si te la pidiera?",
+        "answer": "darías"
+      },
+      {
+        "template": "Él ______ (dar) cualquier cosa por volver a verla.",
+        "answer": "daría"
+      },
+      {
+        "template": "Nosotros ______ (dar) un donativo si la causa fuera justa.",
+        "answer": "daríamos"
+      },
+      {
+        "template": "Vosotros ______ (dar) mejores regalos si tuvierais más imaginación.",
+        "answer": "daríais"
+      },
+      {
+        "template": "Ellos ______ (dar) la vuelta al mundo si pudieran.",
+        "answer": "darían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo te ______ (dar) mi respuesta definitiva.",
+        "answer": "daré"
+      },
+      {
+        "template": "¿Cuándo me ______ (dar) tú el dinero que me debes?",
+        "answer": "darás"
+      },
+      {
+        "template": "Él le ______ (dar) una sorpresa a su novia por su aniversario.",
+        "answer": "dará"
+      },
+      {
+        "template": "Nosotros ______ (dar) un concierto en el auditorio municipal.",
+        "answer": "daremos"
+      },
+      {
+        "template": "Vosotros ______ (dar) vuestra opinión en la próxima reunión.",
+        "answer": "daréis"
+      },
+      {
+        "template": "Ellos ______ (dar) una conferencia sobre el cambio climático.",
+        "answer": "darán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (dar) las gracias cuando recibas algo!",
+        "answer": "da"
+      },
+      {
+        "template": "(Usted) ______ (dar) un discurso inspirador en la conferencia.",
+        "answer": "dé"
+      },
+      {
+        "template": "(Nosotros) ______ (dar) la bienvenida a los nuevos miembros.",
+        "answer": "demos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (dar) lo mejor de vosotros en el partido!",
+        "answer": "dad"
+      },
+      {
+        "template": "(Ustedes) ______ (dar) sus opiniones durante la reunión.",
+        "answer": "den"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era niño, yo siempre ______ (dar) problemas a mis padres.",
+        "answer": "daba"
+      },
+      {
+        "template": "Tú ______ (dar) largos paseos por la playa en verano.",
+        "answer": "dabas"
+      },
+      {
+        "template": "Él ______ (dar) de comer a su perro todas las mañanas.",
+        "answer": "daba"
+      },
+      {
+        "template": "Nosotros ______ (dar) una vuelta por el pueblo los domingos.",
+        "answer": "dábamos"
+      },
+      {
+        "template": "Vosotros ______ (dar) regalos a vuestros amigos en Navidad.",
+        "answer": "dabais"
+      },
+      {
+        "template": "Ellos ______ (dar) clases de baile en la escuela del barrio.",
+        "answer": "daban"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya le ______ (dar) el regalo antes de que llegara.",
+        "answer": "había dado"
+      },
+      {
+        "template": "Tú ______ (dar) tu palabra, no podías retractarte.",
+        "answer": "habías dado"
+      },
+      {
+        "template": "Él nos ______ (dar) su apoyo incondicional desde el principio.",
+        "answer": "había dado"
+      },
+      {
+        "template": "Nosotros ______ (dar) por sentado que vendrían a la fiesta.",
+        "answer": "habíamos dado"
+      },
+      {
+        "template": "Vosotros ______ (dar) la señal de alarma antes de que fuera tarde.",
+        "answer": "habíais dado"
+      },
+      {
+        "template": "Ellos ______ (dar) una respuesta afirmativa la semana anterior.",
+        "answer": "habían dado"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo siempre ______ (dar) regalos en los cumpleaños.",
+        "answer": "doy"
+      },
+      {
+        "template": "Tú ______ (dar) muy buenos consejos.",
+        "answer": "das"
+      },
+      {
+        "template": "Él ______ (dar) clases de matemáticas en la universidad.",
+        "answer": "da"
+      },
+      {
+        "template": "Nosotros ______ (dar) un paseo por el parque cada tarde.",
+        "answer": "damos"
+      },
+      {
+        "template": "Vosotros ______ (dar) de comer a los patos en el estanque.",
+        "answer": "dais"
+      },
+      {
+        "template": "Ellos ______ (dar) una fiesta este fin de semana.",
+        "answer": "dan"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo le ______ (dar) una sorpresa a mi hermano.",
+        "answer": "di"
+      },
+      {
+        "template": "¿Qué le ______ (dar) tú a tu madre por su cumpleaños?",
+        "answer": "diste"
+      },
+      {
+        "template": "Él ______ (dar) un discurso muy emotivo en la ceremonia.",
+        "answer": "dio"
+      },
+      {
+        "template": "Nosotros ______ (dar) un paseo por la ciudad anoche.",
+        "answer": "dimos"
+      },
+      {
+        "template": "Vosotros le ______ (dar) una oportunidad, pero no la aprovechó.",
+        "answer": "disteis"
+      },
+      {
+        "template": "Ellos ______ (dar) las gracias por la ayuda recibida.",
+        "answer": "dieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Yo le ______ (dar) el libro esta mañana.",
+        "answer": "he dado"
+      },
+      {
+        "template": "¿Tú le ______ (dar) la noticia a María?",
+        "answer": "has dado"
+      },
+      {
+        "template": "Él siempre nos ______ (dar) buenos ejemplos.",
+        "answer": "ha dado"
+      },
+      {
+        "template": "Nosotros ______ (dar) nuestro mejor esfuerzo en el proyecto.",
+        "answer": "hemos dado"
+      },
+      {
+        "template": "Vosotros ______ (dar) un gran espectáculo en la función.",
+        "answer": "habéis dado"
+      },
+      {
+        "template": "Ellos ______ (dar) muchas oportunidades a los empleados nuevos.",
+        "answer": "han dado"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo te ______ (dar) mi opinión, ¿te enfadarías?",
+        "answer": "diera"
+      },
+      {
+        "template": "Si tú me ______ (dar) más tiempo, lo terminaría.",
+        "answer": "dieras"
+      },
+      {
+        "template": "Si él nos ______ (dar) permiso, iríamos a la fiesta.",
+        "answer": "diera"
+      },
+      {
+        "template": "Si nosotros le ______ (dar) una oportunidad, podría sorprendernos.",
+        "answer": "diéramos"
+      },
+      {
+        "template": "Si vosotros ______ (dar) un paso al frente, cambiaríais la situación.",
+        "answer": "dierais"
+      },
+      {
+        "template": "Si ellos ______ (dar) su brazo a torcer, el acuerdo sería posible.",
+        "answer": "dieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo le ______ (dar) una buena impresión al entrevistador.",
+        "answer": "dé"
+      },
+      {
+        "template": "Es importante que tú ______ (dar) las gracias por el regalo.",
+        "answer": "des"
+      },
+      {
+        "template": "Es posible que él nos ______ (dar) una explicación convincente.",
+        "answer": "dé"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (dar) nuestro consentimiento para el procedimiento.",
+        "answer": "demos"
+      },
+      {
+        "template": "Dudo que vosotros le ______ (dar) tanta importancia a ese asunto.",
+        "answer": "deis"
+      },
+      {
+        "template": "Es probable que ellos nos ______ (dar) una cálida bienvenida.",
+        "answer": "den"
+      }
+    ]
+  },
+  "decir": {
+    "condicional": [
+      {
+        "template": "Si supiera la respuesta, yo te la ______ (decir).",
+        "answer": "diría"
+      },
+      {
+        "template": "¿Qué ______ (decir) tú en mi lugar?",
+        "answer": "dirías"
+      },
+      {
+        "template": "Él ______ (decir) cualquier cosa para salvarse.",
+        "answer": "diría"
+      },
+      {
+        "template": "Nosotros ______ (decir) que sí, si nos invitaran.",
+        "answer": "diríamos"
+      },
+      {
+        "template": "Vosotros ______ (decir) la verdad, ¿no es cierto?",
+        "answer": "diríais"
+      },
+      {
+        "template": "Ellos ______ (decir) que están ocupados para no venir.",
+        "answer": "dirían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo te ______ (decir) lo que decida.",
+        "answer": "diré"
+      },
+      {
+        "template": "¿Qué ______ (decir) tú cuando lo veas?",
+        "answer": "dirás"
+      },
+      {
+        "template": "Él ______ (decir) la verdad tarde o temprano.",
+        "answer": "dirá"
+      },
+      {
+        "template": "Nosotros ______ (decir) nuestro discurso en la conferencia.",
+        "answer": "diremos"
+      },
+      {
+        "template": "Vosotros ______ (decir) lo que habéis aprendido en el curso.",
+        "answer": "diréis"
+      },
+      {
+        "template": "Ellos ______ (decir) si están de acuerdo con el plan.",
+        "answer": "dirán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (decir) la verdad ahora mismo!",
+        "answer": "di"
+      },
+      {
+        "template": "(Usted) ______ (decir) su nombre completo, por favor.",
+        "answer": "diga"
+      },
+      {
+        "template": "(Nosotros) ______ (decir) qué pensamos sobre este asunto.",
+        "answer": "digamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (decir) lo que sabéis sin miedo!",
+        "answer": "decid"
+      },
+      {
+        "template": "(Ustedes) ______ (decir) si están de acuerdo o no.",
+        "answer": "digan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era pequeño, yo siempre ______ (decir) la verdad a mis padres.",
+        "answer": "decía"
+      },
+      {
+        "template": "Tú ______ (decir) que querías ser astronauta.",
+        "answer": "decías"
+      },
+      {
+        "template": "Él ______ (decir) chistes muy buenos en las fiestas.",
+        "answer": "decía"
+      },
+      {
+        "template": "Nosotros ______ (decir) que íbamos a ganar el campeonato.",
+        "answer": "decíamos"
+      },
+      {
+        "template": "Vosotros siempre ______ (decir) que estudiaríais más.",
+        "answer": "decíais"
+      },
+      {
+        "template": "Ellos ______ (decir) que el viaje era demasiado largo.",
+        "answer": "decían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya te ______ (decir) que no quería ir antes de que insistieras.",
+        "answer": "había dicho"
+      },
+      {
+        "template": "Tú me ______ (decir) que habías terminado el proyecto, pero no era verdad.",
+        "answer": "habías dicho"
+      },
+      {
+        "template": "Él ______ (decir) que llegaría temprano, pero se retrasó.",
+        "answer": "había dicho"
+      },
+      {
+        "template": "Nosotros ______ (decir) que no estábamos de acuerdo con la propuesta inicial.",
+        "answer": "habíamos dicho"
+      },
+      {
+        "template": "Vosotros ______ (decir) que lo haríais, pero no cumplisteis.",
+        "answer": "habíais dicho"
+      },
+      {
+        "template": "Ellos ______ (decir) que el examen había sido fácil, pero suspendieron.",
+        "answer": "habían dicho"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo siempre ______ (decir) la verdad.",
+        "answer": "digo"
+      },
+      {
+        "template": "Tú ______ (decir) cosas muy interesantes.",
+        "answer": "dices"
+      },
+      {
+        "template": "Él ______ (decir) que vendrá mañana.",
+        "answer": "dice"
+      },
+      {
+        "template": "Nosotros ______ (decir) lo que pensamos.",
+        "answer": "decimos"
+      },
+      {
+        "template": "Vosotros ______ (decir) que es fácil, pero no lo es.",
+        "answer": "decís"
+      },
+      {
+        "template": "Ellos ______ (decir) que están de acuerdo.",
+        "answer": "dicen"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo te ______ (decir) que no vinieras.",
+        "answer": "dije"
+      },
+      {
+        "template": "¿Qué ______ (decir) tú cuando te enteraste de la noticia?",
+        "answer": "dijiste"
+      },
+      {
+        "template": "Él ______ (decir) que no sabía nada al respecto.",
+        "answer": "dijo"
+      },
+      {
+        "template": "Nosotros ______ (decir) la verdad durante el interrogatorio.",
+        "answer": "dijimos"
+      },
+      {
+        "template": "Vosotros ______ (decir) que estabais cansados, por eso no fuisteis.",
+        "answer": "dijisteis"
+      },
+      {
+        "template": "Ellos ______ (decir) que llegarían tarde a la cena.",
+        "answer": "dijeron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Hoy yo ______ (decir) toda la verdad en la reunión.",
+        "answer": "he dicho"
+      },
+      {
+        "template": "Esta semana tú ______ (decir) muchas cosas importantes.",
+        "answer": "has dicho"
+      },
+      {
+        "template": "Él siempre ______ (decir) lo que piensa sin filtros.",
+        "answer": "ha dicho"
+      },
+      {
+        "template": "Nosotros ______ (decir) que apoyaríamos la causa.",
+        "answer": "hemos dicho"
+      },
+      {
+        "template": "Vosotros ______ (decir) que vendríais, ¿qué pasó?",
+        "answer": "habéis dicho"
+      },
+      {
+        "template": "Ellos ______ (decir) que no están interesados en la oferta.",
+        "answer": "han dicho"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (decir) lo que pienso, se enfadarían.",
+        "answer": "dijera"
+      },
+      {
+        "template": "Si tú ______ (decir) la verdad, te creerían.",
+        "answer": "dijeras"
+      },
+      {
+        "template": "Si él ______ (decir) que viene, lo esperaríamos.",
+        "answer": "dijera"
+      },
+      {
+        "template": "Si nosotros ______ (decir) que no, ¿qué pasaría?",
+        "answer": "dijéramos"
+      },
+      {
+        "template": "Si vosotros ______ (decir) que estáis ocupados, lo entenderían.",
+        "answer": "dijerais"
+      },
+      {
+        "template": "Si ellos ______ (decir) que necesitan ayuda, los apoyaríamos.",
+        "answer": "dijeran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo no ______ (decir) ninguna tontería.",
+        "answer": "diga"
+      },
+      {
+        "template": "Es importante que tú ______ (decir) lo que sientes.",
+        "answer": "digas"
+      },
+      {
+        "template": "Es posible que él ______ (decir) que no puede venir.",
+        "answer": "diga"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (decir) la verdad sobre lo ocurrido.",
+        "answer": "digamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (decir) siempre lo que pensáis.",
+        "answer": "digáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (decir) que necesitan más tiempo.",
+        "answer": "digan"
+      }
+    ]
+  },
+  "estar": {
+    "condicional": [
+      {
+        "template": "Si tuviera tiempo, yo ______ (estar) en el parque ahora mismo.",
+        "answer": "estaría"
+      },
+      {
+        "template": "Tú ______ (estar) más relajado si durmieras más.",
+        "answer": "estarías"
+      },
+      {
+        "template": "Él ______ (estar) muy agradecido si lo ayudaras.",
+        "answer": "estaría"
+      },
+      {
+        "template": "Nosotros ______ (estar) encantados de acompañarte, si pudiéramos.",
+        "answer": "estaríamos"
+      },
+      {
+        "template": "Vosotros ______ (estar) mejor si os abrigarais.",
+        "answer": "estaríais"
+      },
+      {
+        "template": "Ellos ______ (estar) más contentos si ganaran el partido.",
+        "answer": "estarían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (estar) en casa todo el día.",
+        "answer": "estaré"
+      },
+      {
+        "template": "La próxima semana tú ______ (estar) de viaje.",
+        "answer": "estarás"
+      },
+      {
+        "template": "Él ______ (estar) disponible para la reunión de mañana.",
+        "answer": "estará"
+      },
+      {
+        "template": "Nosotros ______ (estar) más tranquilos cuando termine el examen.",
+        "answer": "estaremos"
+      },
+      {
+        "template": "Vosotros ______ (estar) muy ocupados con los preparativos.",
+        "answer": "estaréis"
+      },
+      {
+        "template": "Ellos ______ (estar) esperándonos en la entrada.",
+        "answer": "estarán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (estar) quieto un momento!",
+        "answer": "está"
+      },
+      {
+        "template": "(Usted) ______ (estar) preparado para la presentación.",
+        "answer": "esté"
+      },
+      {
+        "template": "(Nosotros) ______ (estar) atentos a las instrucciones.",
+        "answer": "estemos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (estar) listos para salir en cinco minutos!",
+        "answer": "estad"
+      },
+      {
+        "template": "(Ustedes) ______ (estar) tranquilos, todo está bajo control.",
+        "answer": "estén"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era joven, yo ______ (estar) siempre jugando afuera.",
+        "answer": "estaba"
+      },
+      {
+        "template": "Antes, tú ______ (estar) más tiempo en casa.",
+        "answer": "estabas"
+      },
+      {
+        "template": "Él ______ (estar) muy enfermo la semana pasada.",
+        "answer": "estaba"
+      },
+      {
+        "template": "Nosotros ______ (estar) de vacaciones cuando llamaste.",
+        "answer": "estábamos"
+      },
+      {
+        "template": "Vosotros ______ (estar) en el parque todos los días.",
+        "answer": "estabais"
+      },
+      {
+        "template": "Ellos ______ (estar) muy contentos en la fiesta de anoche.",
+        "answer": "estaban"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Cuando llegué, yo ya ______ (estar) listo por horas.",
+        "answer": "había estado"
+      },
+      {
+        "template": "Antes de la llamada, tú ______ (estar) durmiendo.",
+        "answer": "habías estado"
+      },
+      {
+        "template": "Él ______ (estar) en esa posición antes de la promoción.",
+        "answer": "había estado"
+      },
+      {
+        "template": "Nosotros ______ (estar) allí muchas veces antes de la última visita.",
+        "answer": "habíamos estado"
+      },
+      {
+        "template": "Vosotros ya ______ (estar) en el cine cuando os escribí.",
+        "answer": "habíais estado"
+      },
+      {
+        "template": "Ellos ______ (estar) preocupados hasta que recibieron la noticia.",
+        "answer": "habían estado"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (estar) en la biblioteca.",
+        "answer": "estoy"
+      },
+      {
+        "template": "Tú ______ (estar) muy cansado hoy.",
+        "answer": "estás"
+      },
+      {
+        "template": "Ella ______ (estar) contenta con su nuevo trabajo.",
+        "answer": "está"
+      },
+      {
+        "template": "Nosotros ______ (estar) esperando el autobús.",
+        "answer": "estamos"
+      },
+      {
+        "template": "Vosotros ______ (estar) de vacaciones en la playa.",
+        "answer": "estáis"
+      },
+      {
+        "template": "Ustedes ______ (estar) en el lugar correcto.",
+        "answer": "están"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (estar) en el supermercado.",
+        "answer": "estuve"
+      },
+      {
+        "template": "La semana pasada tú ______ (estar) de viaje de negocios.",
+        "answer": "estuviste"
+      },
+      {
+        "template": "Él ______ (estar) ausente en la reunión de ayer.",
+        "answer": "estuvo"
+      },
+      {
+        "template": "Nosotros ______ (estar) juntos en el concierto.",
+        "answer": "estuvimos"
+      },
+      {
+        "template": "Vosotros ______ (estar) en la fiesta hasta tarde.",
+        "answer": "estuvisteis"
+      },
+      {
+        "template": "Ellos ______ (estar) muy callados durante la cena.",
+        "answer": "estuvieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Esta mañana yo ______ (estar) en el médico.",
+        "answer": "he estado"
+      },
+      {
+        "template": "Hoy tú ______ (estar) muy ocupado en la oficina.",
+        "answer": "has estado"
+      },
+      {
+        "template": "Ella ______ (estar) de viaje toda la semana.",
+        "answer": "ha estado"
+      },
+      {
+        "template": "Nosotros ______ (estar) trabajando en este proyecto por meses.",
+        "answer": "hemos estado"
+      },
+      {
+        "template": "Vosotros ______ (estar) esperando noticias desde ayer.",
+        "answer": "habéis estado"
+      },
+      {
+        "template": "Ellos ______ (estar) en silencio durante toda la reunión.",
+        "answer": "han estado"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (estar) más cerca, te visitaría.",
+        "answer": "estuviera"
+      },
+      {
+        "template": "Si tú ______ (estar) aquí, todo sería diferente.",
+        "answer": "estuvieras"
+      },
+      {
+        "template": "Si él ______ (estar) en casa, podríamos hablar.",
+        "answer": "estuviera"
+      },
+      {
+        "template": "Si nosotros ______ (estar) de acuerdo, empezaríamos el proyecto.",
+        "answer": "estuviéramos"
+      },
+      {
+        "template": "Si vosotros ______ (estar) menos ocupados, vendríais a la fiesta.",
+        "answer": "estuvierais"
+      },
+      {
+        "template": "Si ellos ______ (estar) más atentos, entenderían el problema.",
+        "answer": "estuvieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (estar) a tiempo para la reunión.",
+        "answer": "esté"
+      },
+      {
+        "template": "Es necesario que tú ______ (estar) tranquilo.",
+        "answer": "estés"
+      },
+      {
+        "template": "Es posible que ella ______ (estar) en la oficina.",
+        "answer": "esté"
+      },
+      {
+        "template": "Es importante que nosotros ______ (estar) preparados.",
+        "answer": "estemos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (estar) listos para el examen.",
+        "answer": "estéis"
+      },
+      {
+        "template": "Es probable que ellos ______ (estar) de acuerdo con la propuesta.",
+        "answer": "estén"
+      }
+    ]
+  },
   "hablar": {
     "futuro": [
       {
@@ -111,30 +885,1865 @@ export const languageData: LanguageData = {
         "answer": "hablan"
       }
     ]
+  },
+  "hacer": {
+    "condicional": [
+      {
+        "template": "Si tuviera los ingredientes, yo ______ (hacer) un pastel.",
+        "answer": "haría"
+      },
+      {
+        "template": "Tú ______ (hacer) lo mismo en mi situación, ¿verdad?",
+        "answer": "harías"
+      },
+      {
+        "template": "Él ______ (hacer) cualquier cosa por sus amigos.",
+        "answer": "haría"
+      },
+      {
+        "template": "Nosotros ______ (hacer) la tarea juntos si estuviéramos en la misma clase.",
+        "answer": "haríamos"
+      },
+      {
+        "template": "Vosotros ______ (hacer) bien en revisar el documento antes de enviarlo.",
+        "answer": "haríais"
+      },
+      {
+        "template": "Ellas ______ (hacer) un viaje alrededor del mundo si tuvieran dinero.",
+        "answer": "harían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (hacer) la compra semanal.",
+        "answer": "haré"
+      },
+      {
+        "template": "El próximo mes tú ______ (hacer) un curso de fotografía.",
+        "answer": "harás"
+      },
+      {
+        "template": "Él ______ (hacer) todo lo posible para ayudarte.",
+        "answer": "hará"
+      },
+      {
+        "template": "Nosotros ______ (hacer) una fiesta si ganamos el partido.",
+        "answer": "haremos"
+      },
+      {
+        "template": "Vosotros ______ (hacer) el examen final la próxima semana.",
+        "answer": "haréis"
+      },
+      {
+        "template": "Ellas ______ (hacer) una presentación sobre el cambio climático.",
+        "answer": "harán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (hacer) tu cama ahora mismo!",
+        "answer": "haz"
+      },
+      {
+        "template": "(Usted) ______ (hacer) el favor de esperar un momento.",
+        "answer": "haga"
+      },
+      {
+        "template": "(Nosotros) ______ (hacer) un brindis por los novios.",
+        "answer": "hagamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (hacer) los deberes antes de salir a jugar!",
+        "answer": "haced"
+      },
+      {
+        "template": "(Ustedes) ______ (hacer) silencio en la biblioteca.",
+        "answer": "hagan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "De niño, yo siempre ______ (hacer) mis deberes después de merendar.",
+        "answer": "hacía"
+      },
+      {
+        "template": "Tú ______ (hacer) mucho deporte cuando vivías en la costa.",
+        "answer": "hacías"
+      },
+      {
+        "template": "Él ______ (hacer) maquetas de aviones en su tiempo libre.",
+        "answer": "hacía"
+      },
+      {
+        "template": "Nosotros ______ (hacer) senderismo los fines de semana.",
+        "answer": "hacíamos"
+      },
+      {
+        "template": "Vosotros ______ (hacer) tartas deliciosas para los cumpleaños.",
+        "answer": "hacíais"
+      },
+      {
+        "template": "Ellas ______ (hacer) yoga en el parque cada mañana.",
+        "answer": "hacían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya ______ (hacer) la compra cuando me llamaste.",
+        "answer": "había hecho"
+      },
+      {
+        "template": "Tú ______ (hacer) el ridículo antes de darte cuenta.",
+        "answer": "habías hecho"
+      },
+      {
+        "template": "Él ______ (hacer) un gran descubrimiento antes de publicarlo.",
+        "answer": "había hecho"
+      },
+      {
+        "template": "Nosotros ______ (hacer) todo lo posible antes de rendirnos.",
+        "answer": "habíamos hecho"
+      },
+      {
+        "template": "Vosotros ______ (hacer) la reserva antes de llegar al hotel.",
+        "answer": "habíais hecho"
+      },
+      {
+        "template": "Ellas ______ (hacer) el trabajo antes de la fecha límite.",
+        "answer": "habían hecho"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (hacer) mi tarea por la tarde.",
+        "answer": "hago"
+      },
+      {
+        "template": "Tú ______ (hacer) mucho ruido cuando cocinas.",
+        "answer": "haces"
+      },
+      {
+        "template": "Él ______ (hacer) ejercicio todas las mañanas.",
+        "answer": "hace"
+      },
+      {
+        "template": "Nosotros ______ (hacer) planes para el fin de semana.",
+        "answer": "hacemos"
+      },
+      {
+        "template": "Vosotros ______ (hacer) un gran trabajo en equipo.",
+        "answer": "hacéis"
+      },
+      {
+        "template": "Ellas ______ (hacer) pasteles deliciosos.",
+        "answer": "hacen"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (hacer) la cena para mi familia.",
+        "answer": "hice"
+      },
+      {
+        "template": "La semana pasada tú ______ (hacer) un viaje a la montaña.",
+        "answer": "hiciste"
+      },
+      {
+        "template": "Él ______ (hacer) un pastel de chocolate el sábado.",
+        "answer": "hizo"
+      },
+      {
+        "template": "Nosotros ______ (hacer) una fogata en la playa anoche.",
+        "answer": "hicimos"
+      },
+      {
+        "template": "Vosotros ______ (hacer) un buen trabajo con la presentación.",
+        "answer": "hicisteis"
+      },
+      {
+        "template": "Ellas ______ (hacer) sus maletas justo antes de salir.",
+        "answer": "hicieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Hoy yo ______ (hacer) todo lo que estaba en mi lista.",
+        "answer": "he hecho"
+      },
+      {
+        "template": "Esta semana tú ______ (hacer) un gran esfuerzo.",
+        "answer": "has hecho"
+      },
+      {
+        "template": "Él ______ (hacer) la cena para nosotros esta noche.",
+        "answer": "ha hecho"
+      },
+      {
+        "template": "Nosotros ______ (hacer) progresos significativos en el proyecto.",
+        "answer": "hemos hecho"
+      },
+      {
+        "template": "Vosotros ______ (hacer) muchas preguntas interesantes hoy.",
+        "answer": "habéis hecho"
+      },
+      {
+        "template": "Ellas ______ (hacer) un descubrimiento importante.",
+        "answer": "han hecho"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (hacer) más ejercicio, estaría en forma.",
+        "answer": "hiciera"
+      },
+      {
+        "template": "Si tú ______ (hacer) tu cama cada mañana, tu cuarto se vería mejor.",
+        "answer": "hicieras"
+      },
+      {
+        "template": "Si él ______ (hacer) menos ruido, los vecinos no se quejarían.",
+        "answer": "hiciera"
+      },
+      {
+        "template": "Si nosotros ______ (hacer) un esfuerzo, podríamos terminar a tiempo.",
+        "answer": "hiciéramos"
+      },
+      {
+        "template": "Si vosotros ______ (hacer) caso a las instrucciones, no tendríais problemas.",
+        "answer": "hicierais"
+      },
+      {
+        "template": "Si ellas ______ (hacer) la tarea, obtendrían mejores notas.",
+        "answer": "hicieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (hacer) un buen trabajo.",
+        "answer": "haga"
+      },
+      {
+        "template": "Es importante que tú ______ (hacer) ejercicio regularmente.",
+        "answer": "hagas"
+      },
+      {
+        "template": "Es posible que ella ______ (hacer) la tarta para la fiesta.",
+        "answer": "haga"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (hacer) algo para ayudar.",
+        "answer": "hagamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (hacer) todo el trabajo a tiempo.",
+        "answer": "hagáis"
+      },
+      {
+        "template": "Es probable que ellas ______ (hacer) lo correcto.",
+        "answer": "hagan"
+      }
+    ]
+  },
+  "ir": {
+    "condicional": [
+      {
+        "template": "Si tuviera tiempo, yo ______ (ir) al cine más a menudo.",
+        "answer": "iría"
+      },
+      {
+        "template": "¿Tú ______ (ir) a la fiesta si te invitaran?",
+        "answer": "irías"
+      },
+      {
+        "template": "Él ______ (ir) con nosotros si no tuviera que trabajar.",
+        "answer": "iría"
+      },
+      {
+        "template": "Nosotros ______ (ir) a la playa si hiciera mejor tiempo.",
+        "answer": "iríamos"
+      },
+      {
+        "template": "Vosotros ______ (ir) de viaje si ganarais la lotería.",
+        "answer": "iríais"
+      },
+      {
+        "template": "Ellos ______ (ir) al concierto si tuvieran entradas.",
+        "answer": "irían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (ir) a la playa si hace buen tiempo.",
+        "answer": "iré"
+      },
+      {
+        "template": "¿Cuándo ______ (ir) tú a visitar a tus abuelos?",
+        "answer": "irás"
+      },
+      {
+        "template": "Él ______ (ir) al médico la próxima semana.",
+        "answer": "irá"
+      },
+      {
+        "template": "Nosotros ______ (ir) de compras este fin de semana.",
+        "answer": "iremos"
+      },
+      {
+        "template": "Vosotros ______ (ir) a la fiesta de cumpleaños de María, ¿verdad?",
+        "answer": "iréis"
+      },
+      {
+        "template": "Ellos ______ (ir) de viaje a Europa el próximo mes.",
+        "answer": "irán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (ir) a tu habitación ahora mismo!",
+        "answer": "ve"
+      },
+      {
+        "template": "(Usted) ______ (ir) con cuidado por la calle.",
+        "answer": "vaya"
+      },
+      {
+        "template": "(Nosotros) ______ (ir) al parque a jugar.",
+        "answer": "vamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (ir) a casa, ya es tarde!",
+        "answer": "id"
+      },
+      {
+        "template": "(Ustedes) ______ (ir) a la recepción para registrarse.",
+        "answer": "vayan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era niño, yo ______ (ir) al parque todos los días.",
+        "answer": "iba"
+      },
+      {
+        "template": "Tú ______ (ir) a la casa de tu abuela los domingos.",
+        "answer": "ibas"
+      },
+      {
+        "template": "Él ______ (ir) a clases de piano los martes.",
+        "answer": "iba"
+      },
+      {
+        "template": "Nosotros ______ (ir) juntos a la escuela primaria.",
+        "answer": "íbamos"
+      },
+      {
+        "template": "Vosotros ______ (ir) de campamento en verano.",
+        "answer": "ibais"
+      },
+      {
+        "template": "Ellos ______ (ir) al cine con frecuencia.",
+        "answer": "iban"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya ______ (ir) al supermercado cuando me llamaste.",
+        "answer": "había ido"
+      },
+      {
+        "template": "Tú ______ (ir) al banco antes de que cerrara, ¿verdad?",
+        "answer": "habías ido"
+      },
+      {
+        "template": "Él ______ (ir) a la oficina temprano ese día.",
+        "answer": "había ido"
+      },
+      {
+        "template": "Nosotros ______ (ir) a ese restaurante antes, pero no nos gustó.",
+        "answer": "habíamos ido"
+      },
+      {
+        "template": "Vosotros ya ______ (ir) de vacaciones cuando os avisaron del problema.",
+        "answer": "habíais ido"
+      },
+      {
+        "template": "Ellos ______ (ir) al aeropuerto con mucho tiempo de antelación.",
+        "answer": "habían ido"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (ir) al mercado todos los sábados.",
+        "answer": "voy"
+      },
+      {
+        "template": "Tú ______ (ir) a la escuela en autobús.",
+        "answer": "vas"
+      },
+      {
+        "template": "Ella ______ (ir) al gimnasio por las tardes.",
+        "answer": "va"
+      },
+      {
+        "template": "Nosotros ______ (ir) de vacaciones a la playa en verano.",
+        "answer": "vamos"
+      },
+      {
+        "template": "Vosotros ______ (ir) al cine esta noche.",
+        "answer": "vais"
+      },
+      {
+        "template": "Ustedes ______ (ir) a la reunión de padres.",
+        "answer": "van"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (ir) al cine con mis amigos.",
+        "answer": "fui"
+      },
+      {
+        "template": "¿Adónde ______ (ir) tú de vacaciones el año pasado?",
+        "answer": "fuiste"
+      },
+      {
+        "template": "Él ______ (ir) a la biblioteca a estudiar.",
+        "answer": "fue"
+      },
+      {
+        "template": "Nosotros ______ (ir) a la montaña el fin de semana pasado.",
+        "answer": "fuimos"
+      },
+      {
+        "template": "Vosotros ______ (ir) al concierto de rock anoche.",
+        "answer": "fuisteis"
+      },
+      {
+        "template": "Ellos ______ (ir) de excursión al campo.",
+        "answer": "fueron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Este año yo ______ (ir) a tres bodas.",
+        "answer": "he ido"
+      },
+      {
+        "template": "¿Alguna vez tú ______ (ir) a Asia?",
+        "answer": "has ido"
+      },
+      {
+        "template": "Ella ______ (ir) a la tienda a comprar pan.",
+        "answer": "ha ido"
+      },
+      {
+        "template": "Nosotros ______ (ir) muchas veces a ese restaurante.",
+        "answer": "hemos ido"
+      },
+      {
+        "template": "Vosotros nunca ______ (ir) al museo de cera.",
+        "answer": "habéis ido"
+      },
+      {
+        "template": "Ellos ______ (ir) al extranjero por trabajo.",
+        "answer": "han ido"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (ir) a la fiesta, te habría visto.",
+        "answer": "fuera"
+      },
+      {
+        "template": "Si tú ______ (ir) más despacio, no te habrías caído.",
+        "answer": "fueras"
+      },
+      {
+        "template": "Si él ______ (ir) al médico antes, no estaría tan enfermo.",
+        "answer": "fuera"
+      },
+      {
+        "template": "Si nosotros ______ (ir) de vacaciones juntos, nos divertiríamos mucho.",
+        "answer": "fuéramos"
+      },
+      {
+        "template": "Si vosotros ______ (ir) al concierto, necesitaríais comprar entradas.",
+        "answer": "fuerais"
+      },
+      {
+        "template": "Si ellos ______ (ir) a la reunión, podrían dar su opinión.",
+        "answer": "fueran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (ir) a la fiesta esta noche.",
+        "answer": "vaya"
+      },
+      {
+        "template": "Es importante que tú ______ (ir) al médico para un chequeo.",
+        "answer": "vayas"
+      },
+      {
+        "template": "Es posible que él ______ (ir) de vacaciones a Italia.",
+        "answer": "vaya"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (ir) preparados para la reunión.",
+        "answer": "vayamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (ir) a terminar el proyecto a tiempo.",
+        "answer": "vayáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (ir) al concierto si consiguen entradas.",
+        "answer": "vayan"
+      }
+    ]
+  },
+  "poder": {
+    "condicional": [
+      {
+        "template": "Si tuviera más dinero, yo ______ (poder) comprar un coche.",
+        "answer": "podría"
+      },
+      {
+        "template": "Tú ______ (poder) ayudarme si tuvieras tiempo, ¿verdad?",
+        "answer": "podrías"
+      },
+      {
+        "template": "Él ______ (poder) ser un gran atleta si entrenara más.",
+        "answer": "podría"
+      },
+      {
+        "template": "Nosotros ______ (poder) ir al concierto si consiguiéramos entradas.",
+        "answer": "podríamos"
+      },
+      {
+        "template": "Vosotros ______ (poder) aprender cualquier cosa si os lo propusierais.",
+        "answer": "podríais"
+      },
+      {
+        "template": "Ellos ______ (poder) viajar por el mundo si ganaran la lotería.",
+        "answer": "podrían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (poder) visitarte.",
+        "answer": "podré"
+      },
+      {
+        "template": "Con más práctica, tú ______ (poder) tocar el piano.",
+        "answer": "podrás"
+      },
+      {
+        "template": "Él ______ (poder) unirse a nosotros más tarde.",
+        "answer": "podrá"
+      },
+      {
+        "template": "Nosotros ______ (poder) ver la película el próximo fin de semana.",
+        "answer": "podremos"
+      },
+      {
+        "template": "Vosotros ______ (poder) alcanzar vuestros objetivos si os esforzáis.",
+        "answer": "podréis"
+      },
+      {
+        "template": "Ellos ______ (poder) resolver el problema si trabajan juntos.",
+        "answer": "podrán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (poder) hacerlo si te esfuerzas!",
+        "answer": "puede"
+      },
+      {
+        "template": "(Usted) ______ (poder) usted tomar la iniciativa en este asunto.",
+        "answer": "pueda"
+      },
+      {
+        "template": "(Nosotros) ______ (poder) nosotros encontrar una solución juntos.",
+        "answer": "podamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (poder) vosotros superar este desafío!",
+        "answer": "poded"
+      },
+      {
+        "template": "(Ustedes) ______ (poder) ustedes marcar la diferencia con su contribución.",
+        "answer": "puedan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "De niño, yo no ______ (poder) nadar muy bien.",
+        "answer": "podía"
+      },
+      {
+        "template": "Tú ______ (poder) correr más rápido cuando eras más joven.",
+        "answer": "podías"
+      },
+      {
+        "template": "Ella ______ (poder) cantar canciones muy bonitas.",
+        "answer": "podía"
+      },
+      {
+        "template": "Nosotros ______ (poder) jugar en el parque durante horas.",
+        "answer": "podíamos"
+      },
+      {
+        "template": "Vosotros ______ (poder) venir a visitarnos más a menudo.",
+        "answer": "podíais"
+      },
+      {
+        "template": "Ellos ______ (poder) ver el mar desde su antigua casa.",
+        "answer": "podían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya ______ (poder) caminar largas distancias antes de la lesión.",
+        "answer": "había podido"
+      },
+      {
+        "template": "Tú ______ (poder) resolver el acertijo antes de que te dieran la pista.",
+        "answer": "habías podido"
+      },
+      {
+        "template": "Ella ______ (poder) terminar el maratón el año anterior.",
+        "answer": "había podido"
+      },
+      {
+        "template": "Nosotros ______ (poder) comprar la casa antes de que los precios subieran.",
+        "answer": "habíamos podido"
+      },
+      {
+        "template": "Vosotros ______ (poder) visitar el museo antes de que cerrara por reformas.",
+        "answer": "habíais podido"
+      },
+      {
+        "template": "Ellos ______ (poder) escapar antes de que llegara la tormenta.",
+        "answer": "habían podido"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (poder) levantar objetos pesados.",
+        "answer": "puedo"
+      },
+      {
+        "template": "Tú ______ (poder) correr muy rápido.",
+        "answer": "puedes"
+      },
+      {
+        "template": "Ella ______ (poder) hablar tres idiomas.",
+        "answer": "puede"
+      },
+      {
+        "template": "Nosotros ______ (poder) ayudarte con la mudanza.",
+        "answer": "podemos"
+      },
+      {
+        "template": "Vosotros ______ (poder) resolver este problema.",
+        "answer": "podéis"
+      },
+      {
+        "template": "Ustedes ______ (poder) venir a la fiesta si quieren.",
+        "answer": "pueden"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo no ______ (poder) ir al cine.",
+        "answer": "pude"
+      },
+      {
+        "template": "Anoche tú ______ (poder) terminar el libro.",
+        "answer": "pudiste"
+      },
+      {
+        "template": "Él ______ (poder) levantar la caja pesada sin ayuda.",
+        "answer": "pudo"
+      },
+      {
+        "template": "Nosotros ______ (poder) llegar a tiempo a pesar del tráfico.",
+        "answer": "pudimos"
+      },
+      {
+        "template": "Vosotros ______ (poder) resolver el problema con ingenio.",
+        "answer": "pudisteis"
+      },
+      {
+        "template": "Ellos no ______ (poder) asistir a la reunión por un imprevisto.",
+        "answer": "pudieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Yo nunca ______ (poder) entender las matemáticas complejas.",
+        "answer": "he podido"
+      },
+      {
+        "template": "Tú ______ (poder) superar todos los obstáculos hasta ahora.",
+        "answer": "has podido"
+      },
+      {
+        "template": "Ella ______ (poder) terminar el proyecto a tiempo.",
+        "answer": "ha podido"
+      },
+      {
+        "template": "Nosotros ______ (poder) ahorrar suficiente dinero para el viaje.",
+        "answer": "hemos podido"
+      },
+      {
+        "template": "Vosotros ______ (poder) ver la película antes que nadie.",
+        "answer": "habéis podido"
+      },
+      {
+        "template": "Ellos ______ (poder) resolver el misterio gracias a las pistas.",
+        "answer": "han podido"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (poder) volar, viajaría a la luna.",
+        "answer": "pudiera"
+      },
+      {
+        "template": "Si tú ______ (poder) leer mentes, ¿qué harías?",
+        "answer": "pudieras"
+      },
+      {
+        "template": "Si él ______ (poder) cambiar el pasado, lo haría.",
+        "answer": "pudiera"
+      },
+      {
+        "template": "Si nosotros ______ (poder) ayudar más, lo haríamos con gusto.",
+        "answer": "pudiéramos"
+      },
+      {
+        "template": "Si vosotros ______ (poder) elegir cualquier superpoder, ¿cuál sería?",
+        "answer": "pudierais"
+      },
+      {
+        "template": "Si ellos ______ (poder) venir antes, nos encontrarían aquí.",
+        "answer": "pudieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (poder) ayudarte con tu proyecto.",
+        "answer": "pueda"
+      },
+      {
+        "template": "Es necesario que tú ______ (poder) concentrarte en tus estudios.",
+        "answer": "puedas"
+      },
+      {
+        "template": "Es posible que ella ______ (poder) venir a la fiesta mañana.",
+        "answer": "pueda"
+      },
+      {
+        "template": "Es importante que nosotros ______ (poder) encontrar una solución pronto.",
+        "answer": "podamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (poder) terminar el trabajo hoy mismo.",
+        "answer": "podáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (poder) ganar el campeonato.",
+        "answer": "puedan"
+      }
+    ]
+  },
+  "saber": {
+    "condicional": [
+      {
+        "template": "Si estudiara más, yo ______ (saber) la respuesta.",
+        "answer": "sabría"
+      },
+      {
+        "template": "¿Tú ______ (saber) qué hacer en una emergencia como esa?",
+        "answer": "sabrías"
+      },
+      {
+        "template": "Él ______ (saber) la verdad si se la contaras.",
+        "answer": "sabría"
+      },
+      {
+        "template": "Nosotros ______ (saber) cómo ayudar si conociéramos el problema.",
+        "answer": "sabríamos"
+      },
+      {
+        "template": "Vosotros ______ (saber) la solución si pensarais un poco más.",
+        "answer": "sabríais"
+      },
+      {
+        "template": "Ellos ______ (saber) qué decir si estuvieran en nuestro lugar.",
+        "answer": "sabrían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (saber) los resultados del examen.",
+        "answer": "sabré"
+      },
+      {
+        "template": "¿Cuándo ______ (saber) tú la fecha del viaje?",
+        "answer": "sabrás"
+      },
+      {
+        "template": "Él ______ (saber) la respuesta cuando termine de investigar.",
+        "answer": "sabrá"
+      },
+      {
+        "template": "Nosotros ______ (saber) qué hacer después de la reunión.",
+        "answer": "sabremos"
+      },
+      {
+        "template": "Vosotros ______ (saber) la verdad en algún momento.",
+        "answer": "sabréis"
+      },
+      {
+        "template": "Ellos ______ (saber) cómo solucionar el problema.",
+        "answer": "sabrán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (saber) la lección para mañana!",
+        "answer": "sabe"
+      },
+      {
+        "template": "(Usted) ______ (saber) que esto es confidencial.",
+        "answer": "sepa"
+      },
+      {
+        "template": "(Nosotros) ______ (saber) cómo actuar en caso de emergencia.",
+        "answer": "sepamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (saber) las reglas antes de jugar!",
+        "answer": "sabed"
+      },
+      {
+        "template": "(Ustedes) ______ (saber) que estamos aquí para ayudarles.",
+        "answer": "sepan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "De niño, yo no ______ (saber) nadar.",
+        "answer": "sabía"
+      },
+      {
+        "template": "Tú ______ (saber) que eso iba a pasar, ¿verdad?",
+        "answer": "sabías"
+      },
+      {
+        "template": "Él ______ (saber) la lección de memoria.",
+        "answer": "sabía"
+      },
+      {
+        "template": "Nosotros ______ (saber) que teníamos que estudiar más.",
+        "answer": "sabíamos"
+      },
+      {
+        "template": "Vosotros ______ (saber) la respuesta, pero no la dijisteis.",
+        "answer": "sabíais"
+      },
+      {
+        "template": "Ellos ______ (saber) que el camino era peligroso.",
+        "answer": "sabían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya ______ (saber) la respuesta antes de que la preguntaras.",
+        "answer": "había sabido"
+      },
+      {
+        "template": "Tú ______ (saber) que él vendría, ¿por qué te sorprendiste?",
+        "answer": "habías sabido"
+      },
+      {
+        "template": "Ella ______ (saber) desde el principio que no era una buena idea.",
+        "answer": "había sabido"
+      },
+      {
+        "template": "Nosotros ______ (saber) que tendríamos problemas con este proyecto.",
+        "answer": "habíamos sabido"
+      },
+      {
+        "template": "Vosotros ______ (saber) la combinación de la caja fuerte todo el tiempo.",
+        "answer": "habíais sabido"
+      },
+      {
+        "template": "Ellos ______ (saber) del riesgo, pero decidieron continuar.",
+        "answer": "habían sabido"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (saber) la respuesta a esa pregunta.",
+        "answer": "sé"
+      },
+      {
+        "template": "Tú ______ (saber) hablar francés muy bien.",
+        "answer": "sabes"
+      },
+      {
+        "template": "Ella ______ (saber) cocinar paella.",
+        "answer": "sabe"
+      },
+      {
+        "template": "Nosotros ______ (saber) que tenemos un examen mañana.",
+        "answer": "sabemos"
+      },
+      {
+        "template": "Vosotros ______ (saber) dónde está la biblioteca, ¿verdad?",
+        "answer": "sabéis"
+      },
+      {
+        "template": "Ustedes ______ (saber) mucho sobre historia del arte.",
+        "answer": "saben"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (saber) la noticia por la radio.",
+        "answer": "supe"
+      },
+      {
+        "template": "¿Cuándo ______ (saber) tú que te ibas a mudar?",
+        "answer": "supiste"
+      },
+      {
+        "template": "Él ______ (saber) la verdad cuando leyó la carta.",
+        "answer": "supo"
+      },
+      {
+        "template": "Nosotros ______ (saber) del accidente por un amigo en común.",
+        "answer": "supimos"
+      },
+      {
+        "template": "Vosotros ______ (saber) que habíais aprobado el examen esta mañana.",
+        "answer": "supisteis"
+      },
+      {
+        "template": "Ellos ______ (saber) cómo reaccionar en esa situación de emergencia.",
+        "answer": "supieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Yo siempre ______ (saber) la verdad sobre ese asunto.",
+        "answer": "he sabido"
+      },
+      {
+        "template": "Tú ______ (saber) la respuesta todo este tiempo, ¿no?",
+        "answer": "has sabido"
+      },
+      {
+        "template": "Ella ______ (saber) cómo resolver el problema desde el principio.",
+        "answer": "ha sabido"
+      },
+      {
+        "template": "Nosotros ______ (saber) los resultados del examen esta mañana.",
+        "answer": "hemos sabido"
+      },
+      {
+        "template": "Vosotros ______ (saber) la noticia antes que nadie.",
+        "answer": "habéis sabido"
+      },
+      {
+        "template": "Ellos ______ (saber) de su llegada con antelación.",
+        "answer": "han sabido"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (saber) la respuesta, te la diría.",
+        "answer": "supiera"
+      },
+      {
+        "template": "Si tú ______ (saber) la verdad, cambiarías de opinión.",
+        "answer": "supieras"
+      },
+      {
+        "template": "Si él ______ (saber) nadar, iría a la piscina.",
+        "answer": "supiera"
+      },
+      {
+        "template": "Si nosotros ______ (saber) dónde está, iríamos a buscarlo.",
+        "answer": "supiéramos"
+      },
+      {
+        "template": "Si vosotros ______ (saber) el secreto, ¿lo guardaríais?",
+        "answer": "supierais"
+      },
+      {
+        "template": "Si ellos ______ (saber) las consecuencias, no lo harían.",
+        "answer": "supieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (saber) la respuesta correcta en el examen.",
+        "answer": "sepa"
+      },
+      {
+        "template": "Es importante que tú ______ (saber) la verdad sobre este asunto.",
+        "answer": "sepas"
+      },
+      {
+        "template": "Es posible que ella ______ (saber) dónde encontrarlo.",
+        "answer": "sepa"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (saber) cómo funciona el sistema.",
+        "answer": "sepamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (saber) toda la historia completa.",
+        "answer": "sepáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (saber) la noticia mañana.",
+        "answer": "sepan"
+      }
+    ]
+  },
+  "ser": {
+    "condicional": [
+      {
+        "template": "Si tuviera más dinero, yo ______ (ser) más generoso.",
+        "answer": "sería"
+      },
+      {
+        "template": "Tú ______ (ser) un excelente líder si te lo propusieras.",
+        "answer": "serías"
+      },
+      {
+        "template": "Él ______ (ser) más feliz si viviera cerca del mar.",
+        "answer": "sería"
+      },
+      {
+        "template": "Nosotros ______ (ser) los primeros en ayudar si nos necesitaran.",
+        "answer": "seríamos"
+      },
+      {
+        "template": "Con más práctica, vosotros ______ (ser) imparables.",
+        "answer": "seríais"
+      },
+      {
+        "template": "Ellos ______ (ser) más amigables si no estuvieran tan cansados.",
+        "answer": "serían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (ser) el primero en llegar.",
+        "answer": "seré"
+      },
+      {
+        "template": "En el futuro, tú ______ (ser) un gran profesional.",
+        "answer": "serás"
+      },
+      {
+        "template": "La próxima semana, el evento ______ (ser) en el auditorio.",
+        "answer": "será"
+      },
+      {
+        "template": "Nosotros ______ (ser) más cuidadosos la próxima vez.",
+        "answer": "seremos"
+      },
+      {
+        "template": "Vosotros ______ (ser) los responsables del proyecto.",
+        "answer": "seréis"
+      },
+      {
+        "template": "Ellos ______ (ser) los ganadores si se esfuerzan.",
+        "answer": "serán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (ser) bueno y pórtate bien!",
+        "answer": "sé"
+      },
+      {
+        "template": "(Usted) ______ (ser) amable con los clientes.",
+        "answer": "sea"
+      },
+      {
+        "template": "(Nosotros) ______ (ser) un ejemplo para los demás.",
+        "answer": "seamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (ser) valientes y no tengáis miedo!",
+        "answer": "sed"
+      },
+      {
+        "template": "(Ustedes) ______ (ser) bienvenidos a la reunión.",
+        "answer": "sean"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando yo era niño, ______ (ser) muy travieso.",
+        "answer": "era"
+      },
+      {
+        "template": "Tú ______ (ser) un buen estudiante en la escuela primaria.",
+        "answer": "eras"
+      },
+      {
+        "template": "Él ______ (ser) el capitán del equipo.",
+        "answer": "era"
+      },
+      {
+        "template": "Nosotros ______ (ser) los únicos que hablaban español en la clase.",
+        "answer": "éramos"
+      },
+      {
+        "template": "Vosotros ______ (ser) muy unidos en aquel entonces.",
+        "answer": "erais"
+      },
+      {
+        "template": "Ellos ______ (ser) felices con poco.",
+        "answer": "eran"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Antes de la mudanza, yo ya ______ (ser) notificado del cambio.",
+        "answer": "había sido"
+      },
+      {
+        "template": "Tú ______ (ser) advertido varias veces antes del incidente.",
+        "answer": "habías sido"
+      },
+      {
+        "template": "Cuando llegamos, él ya ______ (ser) el director por cinco años.",
+        "answer": "había sido"
+      },
+      {
+        "template": "Nosotros ______ (ser) amigos desde la infancia hasta ese momento.",
+        "answer": "habíamos sido"
+      },
+      {
+        "template": "Vosotros ya ______ (ser) informados cuando os llamé.",
+        "answer": "habíais sido"
+      },
+      {
+        "template": "Ellos ______ (ser) muy unidos antes de la discusión.",
+        "answer": "habían sido"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (ser) un estudiante.",
+        "answer": "soy"
+      },
+      {
+        "template": "Tú ______ (ser) muy inteligente.",
+        "answer": "eres"
+      },
+      {
+        "template": "Él ______ (ser) doctor.",
+        "answer": "es"
+      },
+      {
+        "template": "Nosotros ______ (ser) amigos.",
+        "answer": "somos"
+      },
+      {
+        "template": "Vosotros ______ (ser) de España.",
+        "answer": "sois"
+      },
+      {
+        "template": "Ellos ______ (ser) altos.",
+        "answer": "son"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (ser) el único en la oficina.",
+        "answer": "fui"
+      },
+      {
+        "template": "Anoche tú ______ (ser) el alma de la fiesta.",
+        "answer": "fuiste"
+      },
+      {
+        "template": "El mes pasado, él ______ (ser) promovido a gerente.",
+        "answer": "fue"
+      },
+      {
+        "template": "Nosotros ______ (ser) compañeros de clase en 2010.",
+        "answer": "fuimos"
+      },
+      {
+        "template": "Vosotros ______ (ser) los fundadores de la empresa.",
+        "answer": "fuisteis"
+      },
+      {
+        "template": "Ellos ______ (ser) muy amables con nosotros durante la visita.",
+        "answer": "fueron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Hoy yo ______ (ser) muy productivo.",
+        "answer": "he sido"
+      },
+      {
+        "template": "Esta semana tú ______ (ser) de gran ayuda.",
+        "answer": "has sido"
+      },
+      {
+        "template": "Él siempre ______ (ser) un buen amigo.",
+        "answer": "ha sido"
+      },
+      {
+        "template": "Nosotros ______ (ser) consistentes con nuestro trabajo.",
+        "answer": "hemos sido"
+      },
+      {
+        "template": "Vosotros ______ (ser) los mejores en la competencia.",
+        "answer": "habéis sido"
+      },
+      {
+        "template": "Ellos ______ (ser) informados sobre la situación.",
+        "answer": "han sido"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (ser) más alto, jugaría baloncesto.",
+        "answer": "fuera"
+      },
+      {
+        "template": "Si tú ______ (ser) más paciente, entenderías mejor.",
+        "answer": "fueras"
+      },
+      {
+        "template": "Si él ______ (ser) el jefe, cambiaría muchas cosas.",
+        "answer": "fuera"
+      },
+      {
+        "template": "Si nosotros ______ (ser) más ricos, viajaríamos por el mundo.",
+        "answer": "fuéramos"
+      },
+      {
+        "template": "Si vosotros ______ (ser) más organizados, terminaríais antes.",
+        "answer": "fuerais"
+      },
+      {
+        "template": "Si ellos ______ (ser) menos ruidosos, podríamos concentrarnos.",
+        "answer": "fueran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (ser) una buena influencia.",
+        "answer": "sea"
+      },
+      {
+        "template": "Es importante que tú ______ (ser) honesto.",
+        "answer": "seas"
+      },
+      {
+        "template": "Dudo que él ______ (ser) el culpable.",
+        "answer": "sea"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (ser) puntuales.",
+        "answer": "seamos"
+      },
+      {
+        "template": "Es posible que vosotros ______ (ser) los elegidos.",
+        "answer": "seáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (ser) promovidos.",
+        "answer": "sean"
+      }
+    ]
+  },
+  "tener": {
+    "condicional": [
+      {
+        "template": "Si yo fuera rico, ______ (tener) un yate.",
+        "answer": "tendría"
+      },
+      {
+        "template": "Tú ______ (tener) más éxito si trabajaras más duro.",
+        "answer": "tendrías"
+      },
+      {
+        "template": "Él ______ (tener) mejores notas si estudiara más.",
+        "answer": "tendría"
+      },
+      {
+        "template": "Nosotros ______ (tener) una casa en la playa si ahorráramos.",
+        "answer": "tendríamos"
+      },
+      {
+        "template": "Vosotros ______ (tener) menos problemas si fuerais más cuidadosos.",
+        "answer": "tendríais"
+      },
+      {
+        "template": "Ellos ______ (tener) más amigos si fueran más sociables.",
+        "answer": "tendrían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (tener) más tiempo libre.",
+        "answer": "tendré"
+      },
+      {
+        "template": "El próximo año tú ______ (tener) nuevas responsabilidades.",
+        "answer": "tendrás"
+      },
+      {
+        "template": "Él ______ (tener) que tomar una decisión importante.",
+        "answer": "tendrá"
+      },
+      {
+        "template": "Nosotros ______ (tener) una reunión con el director la próxima semana.",
+        "answer": "tendremos"
+      },
+      {
+        "template": "Vosotros ______ (tener) la oportunidad de demostrar vuestro talento.",
+        "answer": "tendréis"
+      },
+      {
+        "template": "Ellos ______ (tener) que adaptarse a los cambios.",
+        "answer": "tendrán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (tener) cuidado con el perro!",
+        "answer": "ten"
+      },
+      {
+        "template": "(Usted) ______ (tener) paciencia, por favor.",
+        "answer": "tenga"
+      },
+      {
+        "template": "(Nosotros) ______ (tener) fe en que todo saldrá bien.",
+        "answer": "tengamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (tener) un buen viaje!",
+        "answer": "tened"
+      },
+      {
+        "template": "(Ustedes) ______ (tener) en cuenta las recomendaciones.",
+        "answer": "tengan"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era niño, yo ______ (tener) un perro.",
+        "answer": "tenía"
+      },
+      {
+        "template": "Antes, tú ______ (tener) el pelo más largo.",
+        "answer": "tenías"
+      },
+      {
+        "template": "Él ______ (tener) una bicicleta roja cuando era pequeño.",
+        "answer": "tenía"
+      },
+      {
+        "template": "Nosotros ______ (tener) muchos amigos en la vieja escuela.",
+        "answer": "teníamos"
+      },
+      {
+        "template": "Vosotros siempre ______ (tener) juguetes interesantes.",
+        "answer": "teníais"
+      },
+      {
+        "template": "Ellos ______ (tener) una casa cerca del mar.",
+        "answer": "tenían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Antes de ganar la lotería, yo nunca ______ (tener) tanto dinero.",
+        "answer": "había tenido"
+      },
+      {
+        "template": "Tú ya ______ (tener) experiencia en ese campo antes de aplicar.",
+        "answer": "habías tenido"
+      },
+      {
+        "template": "Él ______ (tener) varios coches antes de comprar el actual.",
+        "answer": "había tenido"
+      },
+      {
+        "template": "Nosotros ______ (tener) problemas similares en el pasado.",
+        "answer": "habíamos tenido"
+      },
+      {
+        "template": "Vosotros ______ (tener) esa discusión muchas veces antes.",
+        "answer": "habíais tenido"
+      },
+      {
+        "template": "Ellos ______ (tener) la oportunidad de conocerlo antes del evento.",
+        "answer": "habían tenido"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (tener) un coche nuevo.",
+        "answer": "tengo"
+      },
+      {
+        "template": "Tú ______ (tener) mucha suerte.",
+        "answer": "tienes"
+      },
+      {
+        "template": "Ella ______ (tener) dos hermanos.",
+        "answer": "tiene"
+      },
+      {
+        "template": "Nosotros ______ (tener) una casa grande.",
+        "answer": "tenemos"
+      },
+      {
+        "template": "Vosotros ______ (tener) hambre.",
+        "answer": "tenéis"
+      },
+      {
+        "template": "Ustedes ______ (tener) que estudiar más.",
+        "answer": "tienen"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (tener) un examen muy difícil.",
+        "answer": "tuve"
+      },
+      {
+        "template": "Anoche tú ______ (tener) una pesadilla.",
+        "answer": "tuviste"
+      },
+      {
+        "template": "El año pasado él ______ (tener) un accidente de coche.",
+        "answer": "tuvo"
+      },
+      {
+        "template": "Nosotros ______ (tener) una reunión importante esta mañana.",
+        "answer": "tuvimos"
+      },
+      {
+        "template": "Vosotros ______ (tener) que esperar mucho tiempo en la fila.",
+        "answer": "tuvisteis"
+      },
+      {
+        "template": "Ellos ______ (tener) una gran fiesta para su aniversario.",
+        "answer": "tuvieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Hoy yo ______ (tener) un día muy ocupado.",
+        "answer": "he tenido"
+      },
+      {
+        "template": "Esta semana tú ______ (tener) muchos exámenes.",
+        "answer": "has tenido"
+      },
+      {
+        "template": "Él siempre ______ (tener) el apoyo de su familia.",
+        "answer": "ha tenido"
+      },
+      {
+        "template": "Nosotros ______ (tener) algunos problemas con el coche.",
+        "answer": "hemos tenido"
+      },
+      {
+        "template": "Vosotros ______ (tener) la oportunidad de viajar mucho.",
+        "answer": "habéis tenido"
+      },
+      {
+        "template": "Ellos ______ (tener) que trabajar hasta tarde hoy.",
+        "answer": "han tenido"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (tener) más dinero, viajaría más.",
+        "answer": "tuviera"
+      },
+      {
+        "template": "Si tú ______ (tener) más cuidado, no te lastimarías.",
+        "answer": "tuvieras"
+      },
+      {
+        "template": "Si él ______ (tener) más tiempo, nos ayudaría.",
+        "answer": "tuviera"
+      },
+      {
+        "template": "Si nosotros ______ (tener) un coche, iríamos a la playa.",
+        "answer": "tuviéramos"
+      },
+      {
+        "template": "Si vosotros ______ (tener) la oportunidad, ¿la aprovecharíais?",
+        "answer": "tuvierais"
+      },
+      {
+        "template": "Si ellos ______ (tener) más información, tomarían una decisión.",
+        "answer": "tuvieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (tener) buenas noticias pronto.",
+        "answer": "tenga"
+      },
+      {
+        "template": "Es importante que tú ______ (tener) paciencia.",
+        "answer": "tengas"
+      },
+      {
+        "template": "Es posible que ella ______ (tener) razón.",
+        "answer": "tenga"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (tener) un plan.",
+        "answer": "tengamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (tener) tiempo suficiente.",
+        "answer": "tengáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (tener) algunas preguntas.",
+        "answer": "tengan"
+      }
+    ]
+  },
+  "ver": {
+    "condicional": [
+      {
+        "template": "Si tuviera gafas, yo ______ (ver) mejor la pizarra.",
+        "answer": "vería"
+      },
+      {
+        "template": "¿Tú ______ (ver) esa película de miedo solo en casa?",
+        "answer": "verías"
+      },
+      {
+        "template": "Él ______ (ver) el partido si no tuviera que trabajar.",
+        "answer": "vería"
+      },
+      {
+        "template": "Nosotros ______ (ver) el amanecer si nos levantáramos temprano.",
+        "answer": "veríamos"
+      },
+      {
+        "template": "Vosotros ______ (ver) las estrellas si no estuviera nublado.",
+        "answer": "veríais"
+      },
+      {
+        "template": "Ellos ______ (ver) la obra de teatro si consiguieran entradas.",
+        "answer": "verían"
+      }
+    ],
+    "futuro": [
+      {
+        "template": "Mañana yo ______ (ver) a mis abuelos.",
+        "answer": "veré"
+      },
+      {
+        "template": "¿Cuándo ______ (ver) tú los resultados del examen?",
+        "answer": "verás"
+      },
+      {
+        "template": "Él ______ (ver) el partido en casa de un amigo.",
+        "answer": "verá"
+      },
+      {
+        "template": "Nosotros ______ (ver) la nueva exposición en el museo.",
+        "answer": "veremos"
+      },
+      {
+        "template": "Vosotros ______ (ver) si podéis venir a la fiesta.",
+        "answer": "veréis"
+      },
+      {
+        "template": "Ellos ______ (ver) la película en el cine este fin de semana.",
+        "answer": "verán"
+      }
+    ],
+    "imperativo_afirmativo": [
+      {
+        "template": "(Tú) ¡______ (ver) qué bonito paisaje!",
+        "answer": "ve"
+      },
+      {
+        "template": "(Usted) ______ (ver) la demostración con atención.",
+        "answer": "vea"
+      },
+      {
+        "template": "(Nosotros) ______ (ver) si podemos ayudar en algo.",
+        "answer": "veamos"
+      },
+      {
+        "template": "(Vosotros) ¡______ (ver) la película, es muy buena!",
+        "answer": "ved"
+      },
+      {
+        "template": "(Ustedes) ______ (ver) las instrucciones antes de empezar.",
+        "answer": "vean"
+      }
+    ],
+    "imperfecto": [
+      {
+        "template": "Cuando era niño, yo ______ (ver) dibujos animados todas las tardes.",
+        "answer": "veía"
+      },
+      {
+        "template": "Tú ______ (ver) a tus abuelos todos los fines de semana.",
+        "answer": "veías"
+      },
+      {
+        "template": "Él ______ (ver) el mar desde la ventana de su habitación.",
+        "answer": "veía"
+      },
+      {
+        "template": "Nosotros ______ (ver) las estrellas fugaces en las noches de verano.",
+        "answer": "veíamos"
+      },
+      {
+        "template": "Vosotros ______ (ver) los partidos de vuestro equipo favorito juntos.",
+        "answer": "veíais"
+      },
+      {
+        "template": "Ellos ______ (ver) el desfile desde el balcón de su casa.",
+        "answer": "veían"
+      }
+    ],
+    "pluscuamperfecto": [
+      {
+        "template": "Yo ya ______ (ver) la película antes de que me la recomendaras.",
+        "answer": "había visto"
+      },
+      {
+        "template": "Tú ______ (ver) el accidente antes de que llegara la policía.",
+        "answer": "habías visto"
+      },
+      {
+        "template": "Él ______ (ver) esa obra de teatro varias veces.",
+        "answer": "había visto"
+      },
+      {
+        "template": "Nosotros ______ (ver) el arcoíris después de la tormenta.",
+        "answer": "habíamos visto"
+      },
+      {
+        "template": "Vosotros ______ (ver) el anuncio en la televisión antes de comprar el producto.",
+        "answer": "habíais visto"
+      },
+      {
+        "template": "Ellos ______ (ver) al ladrón escapar antes de que sonara la alarma.",
+        "answer": "habían visto"
+      }
+    ],
+    "presente": [
+      {
+        "template": "Yo ______ (ver) las noticias todas las mañanas.",
+        "answer": "veo"
+      },
+      {
+        "template": "Tú ______ (ver) películas de terror los fines de semana.",
+        "answer": "ves"
+      },
+      {
+        "template": "Ella ______ (ver) a sus amigos después de clase.",
+        "answer": "ve"
+      },
+      {
+        "template": "Nosotros ______ (ver) un partido de fútbol en la televisión.",
+        "answer": "vemos"
+      },
+      {
+        "template": "Vosotros ______ (ver) las estrellas desde el balcón.",
+        "answer": "veis"
+      },
+      {
+        "template": "Ustedes ______ (ver) el amanecer desde la montaña.",
+        "answer": "ven"
+      }
+    ],
+    "preterito_indefinido": [
+      {
+        "template": "Ayer yo ______ (ver) una estrella fugaz en el cielo.",
+        "answer": "vi"
+      },
+      {
+        "template": "¿Qué película ______ (ver) tú anoche en el cine?",
+        "answer": "viste"
+      },
+      {
+        "template": "Él ______ (ver) el accidente desde su ventana.",
+        "answer": "vio"
+      },
+      {
+        "template": "Nosotros ______ (ver) un documental muy interesante sobre la naturaleza.",
+        "answer": "vimos"
+      },
+      {
+        "template": "Vosotros ______ (ver) el partido de baloncesto en directo.",
+        "answer": "visteis"
+      },
+      {
+        "template": "Ellos ______ (ver) a sus abuelos durante las vacaciones.",
+        "answer": "vieron"
+      }
+    ],
+    "preterito_perfecto_compuesto": [
+      {
+        "template": "Yo ______ (ver) esa película tres veces.",
+        "answer": "he visto"
+      },
+      {
+        "template": "¿Tú ______ (ver) el último episodio de la serie?",
+        "answer": "has visto"
+      },
+      {
+        "template": "Ella ______ (ver) un fantasma en la casa abandonada.",
+        "answer": "ha visto"
+      },
+      {
+        "template": "Nosotros ______ (ver) muchos cambios en la ciudad últimamente.",
+        "answer": "hemos visto"
+      },
+      {
+        "template": "Vosotros ______ (ver) el cometa pasar esta noche, ¿verdad?",
+        "answer": "habéis visto"
+      },
+      {
+        "template": "Ellos ______ (ver) el partido en el estadio.",
+        "answer": "han visto"
+      }
+    ],
+    "subjuntivo_imperfecto_ra": [
+      {
+        "template": "Si yo ______ (ver) un fantasma, gritaría.",
+        "answer": "viera"
+      },
+      {
+        "template": "Si tú ______ (ver) a Juan, ¿le dirías que lo estoy buscando?",
+        "answer": "vieras"
+      },
+      {
+        "template": "Si él ______ (ver) la oportunidad, la aprovecharía.",
+        "answer": "viera"
+      },
+      {
+        "template": "Si nosotros ______ (ver) el peligro, nos protegeríamos.",
+        "answer": "viéramos"
+      },
+      {
+        "template": "Si vosotros ______ (ver) un accidente, llamaríais a emergencias.",
+        "answer": "vierais"
+      },
+      {
+        "template": "Si ellos ______ (ver) el problema, intentarían solucionarlo.",
+        "answer": "vieran"
+      }
+    ],
+    "subjuntivo_presente": [
+      {
+        "template": "Espero que yo ______ (ver) a mis amigos en la fiesta.",
+        "answer": "vea"
+      },
+      {
+        "template": "Es importante que tú ______ (ver) al médico por ese dolor.",
+        "answer": "veas"
+      },
+      {
+        "template": "Es posible que ella ______ (ver) la película esta noche.",
+        "answer": "vea"
+      },
+      {
+        "template": "Es necesario que nosotros ______ (ver) todas las opciones antes de decidir.",
+        "answer": "veamos"
+      },
+      {
+        "template": "Dudo que vosotros ______ (ver) el final de la serie hoy.",
+        "answer": "veáis"
+      },
+      {
+        "template": "Es probable que ellos ______ (ver) el partido en el bar.",
+        "answer": "vean"
+      }
+    ]
   }
 };
 
 export const availableVerbs: string[] = [
   "comer",
-  "hablar"
+  "dar",
+  "decir",
+  "estar",
+  "hablar",
+  "hacer",
+  "ir",
+  "poder",
+  "saber",
+  "ser",
+  "tener",
+  "ver"
 ];
 
 export const availableTenses: string[] = [
+  "condicional",
   "futuro",
+  "imperativo_afirmativo",
+  "imperfecto",
+  "pluscuamperfecto",
   "presente",
-  "pretérito"
+  "preterito_indefinido",
+  "preterito_perfecto_compuesto",
+  "pretérito",
+  "subjuntivo_imperfecto_ra",
+  "subjuntivo_presente"
 ];
 
 // Groupings based on actual available tenses
 export const tenseGroups: { [key: string]: string[] } = {
   "present": [
-    "presente"
+    "presente",
+    "subjuntivo_presente"
   ],
   "past": [
-    "pretérito"
+    "imperfecto",
+    "preterito_indefinido",
+    "preterito_perfecto_compuesto",
+    "pluscuamperfecto",
+    "subjuntivo_imperfecto_ra"
   ],
   "future": [
     "futuro"
+  ],
+  "conditional": [
+    "condicional"
+  ],
+  "imperative": [
+    "imperativo_afirmativo"
   ]
 };
 

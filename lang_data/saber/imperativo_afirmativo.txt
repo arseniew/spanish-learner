@@ -1,0 +1,5 @@
+(Tú) ¡______ (saber) la lección para mañana!;sabe
+(Usted) ______ (saber) que esto es confidencial.;sepa
+(Nosotros) ______ (saber) cómo actuar en caso de emergencia.;sepamos
+(Vosotros) ¡______ (saber) las reglas antes de jugar!;sabed
+(Ustedes) ______ (saber) que estamos aquí para ayudarles.;sepan

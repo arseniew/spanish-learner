@@ -7,9 +7,11 @@ const outputFilePath = path.resolve(process.cwd(), 'src/data.ts');
 
 // Basic tense groupings (customize as needed)
 const tenseGroups = {
-    present: ['presente'],
-    past: ['pretérito', 'imperfecto'], // Add more past tenses if you have them
+    present: ['presente', 'subjuntivo_presente'],
+    past: ['imperfecto', 'preterito_indefinido', 'preterito_perfecto_compuesto', 'pluscuamperfecto', 'subjuntivo_imperfecto_ra'],
     future: ['futuro'],
+    conditional: ['condicional'],
+    imperative: ['imperativo_afirmativo']
 };
 
 async function parseSentenceFile(filePath) {

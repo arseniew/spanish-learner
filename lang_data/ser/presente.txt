@@ -1,0 +1,6 @@
+Yo ______ (ser) un estudiante.;soy
+Tú ______ (ser) muy inteligente.;eres
+Él ______ (ser) doctor.;es
+Nosotros ______ (ser) amigos.;somos
+Vosotros ______ (ser) de España.;sois
+Ellos ______ (ser) altos.;son

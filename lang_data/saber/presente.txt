@@ -1,0 +1,6 @@
+Yo ______ (saber) la respuesta a esa pregunta.;sé
+Tú ______ (saber) hablar francés muy bien.;sabes
+Ella ______ (saber) cocinar paella.;sabe
+Nosotros ______ (saber) que tenemos un examen mañana.;sabemos
+Vosotros ______ (saber) dónde está la biblioteca, ¿verdad?;sabéis
+Ustedes ______ (saber) mucho sobre historia del arte.;saben
