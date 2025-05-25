@@ -1,0 +1,5 @@
+(Tú) ¡______ (estar) quieto un momento!;está
+(Usted) ______ (estar) preparado para la presentación.;esté
+(Nosotros) ______ (estar) atentos a las instrucciones.;estemos
+(Vosotros) ¡______ (estar) listos para salir en cinco minutos!;estad
+(Ustedes) ______ (estar) tranquilos, todo está bajo control.;estén

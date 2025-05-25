@@ -1,0 +1,5 @@
+(Tú) ¡______ (ir) a tu habitación ahora mismo!;ve
+(Usted) ______ (ir) con cuidado por la calle.;vaya
+(Nosotros) ______ (ir) al parque a jugar.;vamos
+(Vosotros) ¡______ (ir) a casa, ya es tarde!;id
+(Ustedes) ______ (ir) a la recepción para registrarse.;vayan

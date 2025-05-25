@@ -1,0 +1,5 @@
+(Tú) ¡______ (decir) la verdad ahora mismo!;di
+(Usted) ______ (decir) su nombre completo, por favor.;diga
+(Nosotros) ______ (decir) qué pensamos sobre este asunto.;digamos
+(Vosotros) ¡______ (decir) lo que sabéis sin miedo!;decid
+(Ustedes) ______ (decir) si están de acuerdo o no.;digan

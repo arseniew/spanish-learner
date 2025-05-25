@@ -1,0 +1,5 @@
+(Tú) ¡______ (ver) qué bonito paisaje!;ve
+(Usted) ______ (ver) la demostración con atención.;vea
+(Nosotros) ______ (ver) si podemos ayudar en algo.;veamos
+(Vosotros) ¡______ (ver) la película, es muy buena!;ved
+(Ustedes) ______ (ver) las instrucciones antes de empezar.;vean

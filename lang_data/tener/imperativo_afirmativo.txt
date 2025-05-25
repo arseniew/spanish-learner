@@ -1,0 +1,5 @@
+(Tú) ¡______ (tener) cuidado con el perro!;ten
+(Usted) ______ (tener) paciencia, por favor.;tenga
+(Nosotros) ______ (tener) fe en que todo saldrá bien.;tengamos
+(Vosotros) ¡______ (tener) un buen viaje!;tened
+(Ustedes) ______ (tener) en cuenta las recomendaciones.;tengan
