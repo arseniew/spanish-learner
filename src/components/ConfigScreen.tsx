@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import { SpecialCharacterKeyboard } from './SpecialCharacterKeyboard'; // REMOVE THIS IMPORT
 import { CheckboxGroup } from './CheckboxGroup';
 
@@ -7,6 +7,8 @@ interface ConfigScreenProps {
   availableTenses: string[];
   tenseGroups: { [key: string]: string[] };
   onStartLearning: (verbs: Set<string>, tenses: Set<string>) => void;
+  initialSelectedVerbs?: Set<string>;
+  initialSelectedTenses?: Set<string>;
 }
 
 export const ConfigScreen: React.FC<ConfigScreenProps> = ({
@@ -14,10 +16,26 @@ export const ConfigScreen: React.FC<ConfigScreenProps> = ({
   availableTenses,
   tenseGroups,
   onStartLearning,
+  initialSelectedVerbs,
+  initialSelectedTenses,
 }) => {
-  const [selectedVerbs, setSelectedVerbs] = useState<Set<string>>(new Set());
-  const [selectedTenses, setSelectedTenses] = useState<Set<string>>(new Set());
+  const [selectedVerbs, setSelectedVerbs] = useState<Set<string>>(initialSelectedVerbs || new Set());
+  const [selectedTenses, setSelectedTenses] = useState<Set<string>>(initialSelectedTenses || new Set());
   const [error, setError] = useState<string | null>(null);
+
+  // Effect to update internal state if initial props change after mount
+  // This is important if App loads settings async and passes them down
+  useEffect(() => {
+    if (initialSelectedVerbs) {
+      setSelectedVerbs(initialSelectedVerbs);
+    }
+  }, [initialSelectedVerbs]);
+
+  useEffect(() => {
+    if (initialSelectedTenses) {
+      setSelectedTenses(initialSelectedTenses);
+    }
+  }, [initialSelectedTenses]);
 
   const handleVerbToggle = (verb: string) => {
     setSelectedVerbs(prev => {
