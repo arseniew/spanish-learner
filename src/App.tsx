@@ -2,7 +2,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { ConfigScreen } from './components/ConfigScreen';
 import { LearningScreen } from './components/LearningScreen';
-import { Screen, Sentence } from './types';
+import { Screen } from './types';
 
 // Use standard ES Module import. This relies on src/data.ts existing
 // when Vite builds/serves this file, which is ensured by the build:data script.
@@ -36,14 +36,74 @@ function App() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSelection]);
 
+  // Define keys for localStorage - Export them for testing purposes
+  export const APP_SETTINGS_KEY = 'APP_SETTINGS_KEY';
+  export const APP_SCREEN_KEY = 'APP_SCREEN_KEY';
+
+  // Effect to load settings and screen state from localStorage on mount
+  useEffect(() => {
+    // Load settings
+    try {
+      const savedSettings = localStorage.getItem(APP_SETTINGS_KEY);
+      if (savedSettings) {
+        const parsedSettings = JSON.parse(savedSettings);
+        if (parsedSettings && Array.isArray(parsedSettings.verbs) && Array.isArray(parsedSettings.tenses)) {
+          setCurrentSelection({
+            verbs: new Set(parsedSettings.verbs),
+            tenses: new Set(parsedSettings.tenses),
+          });
+        } else {
+          console.warn("Invalid settings format in localStorage", parsedSettings);
+        }
+      }
+    } catch (error) {
+      console.error("Failed to parse settings from localStorage", error);
+    }
+
+    // Load screen state
+    try {
+      const savedScreen = localStorage.getItem(APP_SCREEN_KEY);
+      if (savedScreen && (savedScreen === 'config' || savedScreen === 'learning')) {
+        setCurrentScreen(savedScreen as Screen);
+      } else if (savedScreen) {
+        console.warn("Invalid screen value in localStorage:", savedScreen, "Defaulting to 'config'.");
+        // setCurrentScreen('config'); // Already default, but explicit if needed
+      }
+    } catch (error) {
+      // This catch block might be less critical for screen state unless storage itself fails
+      console.error("Failed to load screen state from localStorage", error);
+    }
+  }, []); // Empty dependency array ensures this runs only on mount
+
+  // Effect to save screen state to localStorage whenever it changes
+  useEffect(() => {
+    try {
+      localStorage.setItem(APP_SCREEN_KEY, currentScreen);
+    } catch (error) {
+      console.error("Failed to save screen state to localStorage", error);
+    }
+  }, [currentScreen]);
+
   const startLearning = (verbs: Set<string>, tenses: Set<string>) => {
     setCurrentSelection({ verbs, tenses });
     setCurrentScreen('learning');
+    // Save to localStorage when starting learning
+    try {
+      const settingsToSave = JSON.stringify({
+        verbs: Array.from(verbs), // Convert Set to Array for JSON
+        tenses: Array.from(tenses), // Convert Set to Array for JSON
+      });
+      localStorage.setItem(APP_SETTINGS_KEY, settingsToSave);
+    } catch (error) {
+      console.error("Failed to save settings to localStorage", error);
+    }
   };
 
   const goToConfig = () => {
     setCurrentScreen('config');
-    setCurrentSelection(null);
+    // setCurrentSelection(null); // Keep settings even when going back to config
+    // Optionally, clear localStorage when going to config explicitly
+    // localStorage.removeItem(APP_SETTINGS_KEY); 
   };
 
    // Effect to check if the imported data looks valid after mount

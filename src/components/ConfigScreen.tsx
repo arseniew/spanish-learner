@@ -7,6 +7,8 @@ interface ConfigScreenProps {
   availableTenses: string[];
   tenseGroups: { [key: string]: string[] };
   onStartLearning: (verbs: Set<string>, tenses: Set<string>) => void;
+  initialSelectedVerbs?: Set<string>;
+  initialSelectedTenses?: Set<string>;
 }
 
 export const ConfigScreen: React.FC<ConfigScreenProps> = ({
@@ -14,9 +16,11 @@ export const ConfigScreen: React.FC<ConfigScreenProps> = ({
   availableTenses,
   tenseGroups,
   onStartLearning,
+  initialSelectedVerbs,
+  initialSelectedTenses,
 }) => {
-  const [selectedVerbs, setSelectedVerbs] = useState<Set<string>>(new Set());
-  const [selectedTenses, setSelectedTenses] = useState<Set<string>>(new Set());
+  const [selectedVerbs, setSelectedVerbs] = useState<Set<string>>(initialSelectedVerbs || new Set());
+  const [selectedTenses, setSelectedTenses] = useState<Set<string>>(initialSelectedTenses || new Set());
   const [error, setError] = useState<string | null>(null);
 
   const handleVerbToggle = (verb: string) => {
