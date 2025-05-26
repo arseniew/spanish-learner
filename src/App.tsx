@@ -130,6 +130,8 @@ function App() {
           // Pass the imported data directly
           availableVerbs={availableVerbs || []} // Add fallback for extra safety
           availableTenses={availableTenses || []}
+          initialSelectedVerbs={currentSelection?.verbs}
+          initialSelectedTenses={currentSelection?.tenses}
           tenseGroups={tenseGroups || {}}
           onStartLearning={startLearning}
         />
