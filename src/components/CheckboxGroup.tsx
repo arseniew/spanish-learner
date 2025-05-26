@@ -102,7 +102,7 @@ export function CheckboxGroup<T extends string>({
               checked={selectedItems.has(item)}
               onChange={() => onToggle(item)}
             />
-            <label htmlFor={`${title.replace(/\s+/g, '-')}-${item}`}>{item}</label>
+            <label htmlFor={`${title.replace(/\s+/g, '-')}-${item}`}>{item.charAt(0).toUpperCase() + item.slice(1)}</label>
           </div>
         ))}
          {items.length === 0 && <p className="no-items-message">(No {title.toLowerCase()} available)</p>}

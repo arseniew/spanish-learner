@@ -53,14 +53,14 @@ async function buildData() {
 
         availableVerbs = dirents
             .filter(dirent => dirent.isDirectory())
-            .map(dirent => dirent.name);
+            .map(dirent => dirent.name.toLowerCase()); // Lowercase verb names for the list
 
         for (const verbDir of dirents) {
             if (!verbDir.isDirectory()) continue;
 
-            const verbName = verbDir.name;
+            const verbName = verbDir.name.toLowerCase(); // Lowercase verb name for keys and processing
             verbs[verbName] = {};
-            const verbPath = path.join(dataDir, verbName);
+            const verbPath = path.join(dataDir, verbDir.name); // Use original casing for path
             let tenseFiles = [];
              try {
                 tenseFiles = await fs.readdir(verbPath);
@@ -72,7 +72,7 @@ async function buildData() {
 
             for (const tenseFile of tenseFiles) {
                 if (tenseFile.endsWith('.txt')) {
-                    const tenseName = tenseFile.replace('.txt', '');
+                    const tenseName = tenseFile.replace('.txt', '').toLowerCase(); // Lowercase tense name
                     allTensesSet.add(tenseName);
                     const filePath = path.join(verbPath, tenseFile);
                     verbs[verbName][tenseName] = await parseSentenceFile(filePath);
@@ -82,8 +82,10 @@ async function buildData() {
             if (Object.keys(verbs[verbName]).length === 0) {
                 delete verbs[verbName];
                  // Also remove from availableVerbs list
-                availableVerbs = availableVerbs.filter(v => v !== verbName);
-                console.warn(`Warning: Verb '${verbName}' had no valid tense files. Excluding it.`);
+                // Ensure comparison is with the lowercased name if original availableVerbs wasn't fully lowercased yet
+                // (though it is now, this makes it robust)
+                availableVerbs = availableVerbs.filter(v => v !== verbName); 
+                console.warn(`Warning: Verb '${verbDir.name}' had no valid tense files. Excluding it.`); // Use original name for warning
             }
         }
     } catch (error) {

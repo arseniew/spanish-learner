@@ -48,9 +48,11 @@ function App() {
       if (savedSettings) {
         const parsedSettings = JSON.parse(savedSettings);
         if (parsedSettings && Array.isArray(parsedSettings.verbs) && Array.isArray(parsedSettings.tenses)) {
+          const lowercasedVerbs = parsedSettings.verbs.map((v: string) => v.toLowerCase());
+          const lowercasedTenses = parsedSettings.tenses.map((t: string) => t.toLowerCase());
           setCurrentSelection({
-            verbs: new Set(parsedSettings.verbs),
-            tenses: new Set(parsedSettings.tenses),
+            verbs: new Set(lowercasedVerbs),
+            tenses: new Set(lowercasedTenses),
           });
         } else {
           console.warn("Invalid settings format in localStorage", parsedSettings);
@@ -90,8 +92,8 @@ function App() {
     // Save to localStorage when starting learning
     try {
       const settingsToSave = JSON.stringify({
-        verbs: Array.from(verbs), // Convert Set to Array for JSON
-        tenses: Array.from(tenses), // Convert Set to Array for JSON
+        verbs: Array.from(verbs).map(v => v.toLowerCase()), // Convert Set to Array and lowercase for JSON
+        tenses: Array.from(tenses).map(t => t.toLowerCase()), // Convert Set to Array and lowercase for JSON
       });
       localStorage.setItem(APP_SETTINGS_KEY, settingsToSave);
     } catch (error) {

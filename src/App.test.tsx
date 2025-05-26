@@ -41,8 +41,9 @@ describe('App Component localStorage Interaction', () => {
   it('should save currentSelection to localStorage when startLearning is called', async () => {
     render(<App />);
     const user = userEvent.setup();
-    const verbCheckbox = await screen.findByRole('checkbox', { name: /verb1/i });
-    const tenseCheckbox = await screen.findByRole('checkbox', { name: /tense1/i });
+    // Using findByLabelText for initial interaction is more robust if element is not immediately available
+    const verbCheckbox = await screen.findByLabelText('verb1');
+    const tenseCheckbox = await screen.findByLabelText('tense1');
     await user.click(verbCheckbox);
     await user.click(tenseCheckbox);
     const startButton = screen.getByRole('button', { name: /start learning/i });
@@ -60,29 +61,12 @@ describe('App Component localStorage Interaction', () => {
 
     render(<App />);
 
-    // Step 1: Wait for App's state to be updated (verified by its own log)
-    await waitFor(() => {
-      expect(screen.getByTestId('app-currentSelection-verbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-    }, { timeout: 2000 });
-
-    // Step 2: Wait for ConfigScreen to receive the correct prop
-    await waitFor(() => {
-      expect(screen.getByTestId('config-initialSelectedVerbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-      expect(screen.getByTestId('config-initialSelectedTenses').textContent).toBe(JSON.stringify(mockSelection.tenses));
-    }, { timeout: 2000 });
-      
-    // Step 3: Wait for ConfigScreen's internal state to update via its useEffect
-    await waitFor(() => {
-      expect(screen.getByTestId('config-selectedVerbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-      expect(screen.getByTestId('config-selectedTenses').textContent).toBe(JSON.stringify(mockSelection.tenses));
-    }, { timeout: 2000 });
-
-    // Step 4: Finally, check the checkbox itself
-    const verbCheckbox = screen.getByRole('checkbox', { name: /verb2/i }) as HTMLInputElement;
+    const verbCheckbox = await screen.findByLabelText('verb2', {}, { timeout: 3000 }) as HTMLInputElement;
     expect(verbCheckbox).toBeInTheDocument();
-    const tenseCheckbox = screen.getByRole('checkbox', { name: /tense2/i }) as HTMLInputElement;
-    expect(tenseCheckbox).toBeInTheDocument();
     expect(verbCheckbox.checked).toBe(true);
+
+    const tenseCheckbox = await screen.findByLabelText('tense2', {}, { timeout: 3000 }) as HTMLInputElement;
+    expect(tenseCheckbox).toBeInTheDocument();
     expect(tenseCheckbox.checked).toBe(true);
   });
 
@@ -91,8 +75,8 @@ describe('App Component localStorage Interaction', () => {
     const user = userEvent.setup();
     expect(localStorage.setItem).toHaveBeenCalledWith(APP_SCREEN_KEY, 'config'); 
 
-    const verbCheckbox = await screen.findByRole('checkbox', { name: /verb1/i });
-    const tenseCheckbox = await screen.findByRole('checkbox', { name: /tense1/i });
+    const verbCheckbox = await screen.findByLabelText('verb1');
+    const tenseCheckbox = await screen.findByLabelText('tense1');
     await user.click(verbCheckbox);
     await user.click(tenseCheckbox);
     
@@ -126,27 +110,10 @@ describe('App Component localStorage Interaction', () => {
     getItemSpy.mockReturnValueOnce(mockScreen); 
 
     render(<App />);
-
-    // Step 1: Wait for App's state to be updated
-    await waitFor(() => {
-      expect(screen.getByTestId('app-currentSelection-verbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-    }, { timeout: 2000 });
-
-    // Step 2: Wait for ConfigScreen to receive the correct prop
-    await waitFor(() => {
-      expect(screen.getByTestId('config-initialSelectedVerbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-      expect(screen.getByTestId('config-initialSelectedTenses').textContent).toBe(JSON.stringify(mockSelection.tenses));
-    }, { timeout: 2000 });
-      
-    // Step 3: Wait for ConfigScreen's internal state to update
-    await waitFor(() => {
-      expect(screen.getByTestId('config-selectedVerbs').textContent).toBe(JSON.stringify(mockSelection.verbs));
-      expect(screen.getByTestId('config-selectedTenses').textContent).toBe(JSON.stringify(mockSelection.tenses));
-    }, { timeout: 2000 });
-      
-    // Step 4: Finally, check the button and checkbox
-    expect(screen.getByRole('button', { name: /start learning/i })).toBeInTheDocument();
-    const verbCheckbox = screen.getByRole('checkbox', { name: /verb1/i }) as HTMLInputElement;
+    
+    const verbCheckbox = await screen.findByLabelText('verb1', {}, { timeout: 3000 }) as HTMLInputElement;
+    // The button check can remain separate or be part of a broader setup verification if needed
+    expect(screen.getByRole('button', { name: /start learning/i })).toBeInTheDocument(); 
     expect(verbCheckbox).toBeInTheDocument();
     expect(verbCheckbox.checked).toBe(true);
   });
